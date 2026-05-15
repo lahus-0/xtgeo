@@ -32,7 +32,7 @@ def merge_grids(
     if layer_offset < 0:
         raise ValueError("layer offset must be >=0")
     if layer_refinement < 0:
-        raise ValueError("layer offset must be >=0")
+        raise ValueError("layer refinement must be >=0")
 
     # Ensure both grids have the same ijk_handedness
     if (
